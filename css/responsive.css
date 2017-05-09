@@ -57,7 +57,7 @@ px      68    160    252    */
     font-size: 40px;
   }
   .navbar-header .navbar-brand a {
-    padding: 6px 8px;
+    padding: 0 8px;
   }
   #hero-area {
     padding: 140px 0;
@@ -141,3 +141,4 @@ px      68    160    252    */
 ------------------------------------------------------------
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
+/*# sourceMappingURL=responsive.css.map */

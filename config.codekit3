@@ -149,6 +149,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/responsive.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/responsive.css.map",
+		"oF": 0
+		},
 	"\/css\/slider.css": {
 		"aP": 1,
 		"bl": 0,
@@ -709,8 +715,8 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/less\/responsive.css",
-		"oF": 0,
+		"oAP": "\/css\/responsive.css",
+		"oF": 2,
 		"oS": 0,
 		"rU": 0,
 		"sI": 0,
@@ -742,8 +748,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 515977312,
-	"displayValue": "timer",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "OpenQuake - template",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-drunkArcher"
 	},
 "projectSettings": {

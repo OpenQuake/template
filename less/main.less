@@ -4,7 +4,8 @@
 
 
 
-@primary-color:#02BDD5;
+@primary-color: #02BDD5;
+@border-color: #caecf9;
 @shadow: #00A4BA;
 @roboto:'Roboto', sans-serif;
 @paragraph-color:#727272;
@@ -111,10 +112,8 @@ a:hover {
 	color: #fff;
 	-webkit-transition: all 0.2s ease-out 0s;
 	transition: all 0.2s ease-out 0s;
-	padding:15px 0;
-	-webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
-	box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
-	border-bottom: 1px solid #dedede;
+	padding: 12px;
+	border-bottom: 1px solid @border-color;
 	.navbar-nav > li > a:hover {
 		background: transparent;
 	}
@@ -125,20 +124,22 @@ a:hover {
 		
 	}
 	.main-menu li>a {
-		color: #444;
+		color: #666;
 	}
 	.main-menu {
 
 		li{
 			position: relative;
 			a {
-				font-size: 14px;
-				font-weight: 500;
+				font-size: 12px;
+				font-weight: 400;
 				border-bottom: 2px solid transparent;
 				-webkit-transition: .3s all;
 				-o-transition: .3s all;
 				transition: .3s all;
 				text-transform: uppercase;
+				padding-top: 28px !important;
+				padding-bottom: 0 !important;
 				&:hover {
 					color: @primary-color;
 				}
@@ -590,8 +591,36 @@ figure {
 
 #footer {
 	background: #fff;
-	padding: 25px 0;
-	color: #555;
+	padding: 35px 0 15px;
+	color: #666;
+	border-top: 1px solid @border-color;
+
+	h4 {
+		font-size: 12px;
+		font-weight: 500;
+		font-family: @roboto;
+		margin: 5px 0;
+	}
+
+	a {
+		font-size: 12px;
+		font-weight: 300;
+		font-family: @roboto;
+		color: #666;
+
+		&:hover {
+			color: @primary-color;
+		}
+	}
+
+	p {
+		padding-top: 17px;
+		font-size: 13px;
+		font-weight: 300;
+		font-family: @roboto;
+		color: #666;
+	}
+
 	.copyright {
 		font-size: 13px;
 		margin-bottom: 0;
