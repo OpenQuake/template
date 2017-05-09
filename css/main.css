@@ -36,7 +36,7 @@ input {
   display: block !important;
   height: 40px !important;
   padding: 6px 12px !important;
-  font-size: 13px !important;
+  font-size: 15px !important;
   line-height: 1.428571429 !important;
   background-color: #fff !important;
   background-image: none !important;
@@ -51,13 +51,15 @@ input {
   border: 1px solid rgba(111, 121, 122, 0.3) !important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 textarea {
   display: block !important;
   border-radius: 0 !important;
   width: 100% !important;
   padding: 6px 12px !important;
-  font-size: 14px !important;
+  font-size: 16px !important;
   line-height: 1.42857143 !important;
   color: #555555 !important;
   background-color: #ffffff !important;
@@ -67,6 +69,8 @@ textarea {
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
   -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 .btn-primary {
   color: #fff;
