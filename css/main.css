@@ -501,12 +501,15 @@ figure figcaption p {
   border-top: 1px solid #caecf9;
 }
 #footer h4 {
+  font-size: 13px;
   font-weight: 500;
   margin: 5px 0;
 }
 #footer a {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: #666;
+  color: #888;
 }
 #footer a:hover {
   color: #02BDD5;
@@ -515,7 +518,7 @@ figure figcaption p {
   font-size: 13px;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
-  color: #666;
+  color: #999;
 }
 @media (max-width: 1199px) {
   #footer p {
@@ -524,7 +527,6 @@ figure figcaption p {
   }
 }
 #footer .links {
-  font-size: 12px;
   font-family: 'Roboto', sans-serif;
 }
 @media (max-width: 767px) {
