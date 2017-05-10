@@ -149,12 +149,20 @@ textarea, textarea.form-control {
 	font-weight: 600;
 	margin-bottom: 18px;
 	text-transform: uppercase;
+
+	@media (max-width: 767px) {
+		text-align: center;
+	}
 }
 .subtitle-des {
 	color: #727272;
 	font-size: 14px;
 	margin-bottom: 20px;
 	font-weight: 300;
+
+	@media (max-width: 767px) {
+		text-align: center;
+	}
 }
 
 .pages {
@@ -715,6 +723,20 @@ figure {
 		padding-top: 40px;
 	}
 	.map-area {
+	}
+
+	.button {
+		float: right !important;
+
+		@media (max-width: 767px) {
+			float: none !important;
+		}
+
+		.btn {
+			@media (max-width: 767px) {
+				width: 100%;
+			}
+		}
 	}
 }
 

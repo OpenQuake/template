@@ -132,11 +132,21 @@ textarea.form-control {
   margin-bottom: 18px;
   text-transform: uppercase;
 }
+@media (max-width: 767px) {
+  .subtitle {
+    text-align: center;
+  }
+}
 .subtitle-des {
   color: #727272;
   font-size: 14px;
   margin-bottom: 20px;
   font-weight: 300;
+}
+@media (max-width: 767px) {
+  .subtitle-des {
+    text-align: center;
+  }
 }
 .pages {
   padding: 55px 0 25px;
@@ -615,6 +625,19 @@ figure figcaption p {
 }
 #contact-section .address-details {
   padding-top: 40px;
+}
+#contact-section .button {
+  float: right !important;
+}
+@media (max-width: 767px) {
+  #contact-section .button {
+    float: none !important;
+  }
+}
+@media (max-width: 767px) {
+  #contact-section .button .btn {
+    width: 100%;
+  }
 }
 #map-canvas {
   width: 100%;
