@@ -31,43 +31,45 @@ h2 {
 a:hover {
   text-decoration: none;
 }
-input {
-  display: block !important;
-  height: 40px !important;
-  padding: 6px 12px !important;
-  font-size: 15px !important;
-  line-height: 1.428571429 !important;
-  background-color: #fff !important;
-  background-image: none !important;
-  border: 1px solid #ccc !important;
-  border-radius: 4px !important;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
-  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
-  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
-  border-radius: 1px !important;
-  border: 1px solid rgba(111, 121, 122, 0.3) !important;
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
+input,
+input.form-control {
+  display: block;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 15px;
+  line-height: 1.428571429;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  border-radius: 1px;
+  border: 1px solid rgba(111, 121, 122, 0.3);
+  box-shadow: none;
+  -webkit-box-shadow: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
-textarea {
-  display: block !important;
-  border-radius: 0 !important;
-  width: 100% !important;
-  padding: 6px 12px !important;
-  font-size: 16px !important;
-  line-height: 1.42857143 !important;
-  color: #555555 !important;
-  background-color: #ffffff !important;
-  background-image: none !important;
-  border: 1px solid #cccccc !important;
-  box-shadow: none !important;
-  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
-  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
+textarea,
+textarea.form-control {
+  display: block;
+  border-radius: 0;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  box-shadow: none;
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -83,11 +85,28 @@ textarea {
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   border-radius: 1px;
   border: 1px solid rgba(111, 121, 122, 0.3);
+  text-transform: uppercase;
 }
 .btn-primary:hover {
   background: #fff;
   color: #02BDD5;
   border: 1px solid #02BDD5;
+}
+.btn-home {
+  background: #414141;
+  border: none;
+  color: #fff;
+  padding: 20px 35px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-size: 13px;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  border-radius: 0;
+}
+.btn-home:hover {
+  color: #fff;
 }
 .section-heading {
   text-align: center;
@@ -116,14 +135,14 @@ textarea {
 .subtitle-des {
   color: #727272;
   font-size: 14px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   font-weight: 300;
 }
 .pages {
-  padding: 80px 0 40px;
+  padding: 55px 0 25px;
 }
 .moduler {
-  padding: 140px 0;
+  padding: 55px 0 25px;
 }
 .navbar-default .navbar-nav > li > a:hover {
   color: #02BDD5;
@@ -236,6 +255,38 @@ textarea {
 }
 .login .btn-primary {
   width: 100%;
+}
+/*---page legal---*/
+.legal {
+  font-family: 'Roboto', sans-serif;
+}
+.legal .title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  text-transform: none;
+  margin-top: 80px;
+  font-weight: 200;
+  color: #444;
+}
+.legal h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #444;
+}
+.legal p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 6px 0;
+  color: #555;
+}
+.legal b {
+  font-weight: 600;
+  margin-right: 5px;
+  color: #555;
 }
 #hero-area {
   background: url('../images/slider.jpg') no-repeat 50%;
@@ -514,10 +565,10 @@ figure figcaption p {
   text-shadow: #00A4BA 1px 1px, #00A4BA 2px 2px, #00A4BA 3px 3px, #00A4BA 4px 4px, #00A4BA 5px 5px, #00A4BA 6px 6px, #00A4BA 7px 7px, #00A4BA 8px 8px, #00A4BA 9px 9px, #00A4BA 10px 10px, #00A4BA 11px 11px, #00A4BA 12px 12px, #00A4BA 13px 13px, #00A4BA 14px 14px, #00A4BA 15px 15px, #00A4BA 16px 16px, #00A4BA 17px 17px, #00A4BA 18px 18px, #00A4BA 19px 19px, #00A4BA 20px 20px, #00A4BA 21px 21px, #00A4BA 22px 22px, #00A4BA 23px 23px, #00A4BA 24px 24px, #00A4BA 25px 25px, #00A4BA 26px 26px, #00A4BA 27px 27px, #00A4BA 28px 28px, #00A4BA 29px 29px, #00A4BA 30px 30px, #00A4BA 31px 31px, #00A4BA 32px 32px, #00A4BA 33px 33px, #00A4BA 34px 34px, #00A4BA 35px 35px, #00A4BA 36px 36px, #00A4BA 37px 37px, #00A4BA 38px 38px, #00A4BA 39px 39px, #00A4BA 40px 40px, #00A4BA 41px 41px, #00A4BA 42px 42px, #00A4BA 43px 43px, #00A4BA 44px 44px, #00A4BA 45px 45px, #00A4BA 46px 46px, #00A4BA 47px 47px, #00A4BA 48px 48px, #00A4BA 49px 49px, #00A4BA 50px 50px, #00A4BA 51px 51px, #00A4BA 52px 52px, #00A4BA 53px 53px, #00A4BA 54px 54px, #00A4BA 55px 55px, #00A4BA 56px 56px, #00A4BA 57px 57px, #00A4BA 58px 58px, #00A4BA 59px 59px, #00A4BA 60px 60px, #00A4BA 61px 61px, #00A4BA 62px 62px, #00A4BA 63px 63px, #00A4BA 64px 64px, #00A4BA 65px 65px, #00A4BA 66px 66px, #00A4BA 67px 67px, #00A4BA 68px 68px, #00A4BA 69px 69px, #00A4BA 70px 70px, #00A4BA 71px 71px, #00A4BA 72px 72px, #00A4BA 73px 73px, #00A4BA 74px 74px, #00A4BA 75px 75px, #00A4BA 76px 76px, #00A4BA 77px 77px, #00A4BA 78px 78px, #00A4BA 79px 79px, #00A4BA 80px 80px, #00A4BA 81px 81px, #00A4BA 82px 82px, #00A4BA 83px 83px, #00A4BA 84px 84px, #00A4BA 85px 85px, #00A4BA 86px 86px, #00A4BA 87px 87px, #00A4BA 88px 88px, #00A4BA 89px 89px, #00A4BA 90px 90px, #00A4BA 91px 91px, #00A4BA 92px 92px, #00A4BA 93px 93px, #00A4BA 94px 94px, #00A4BA 95px 95px, #00A4BA 96px 96px, #00A4BA 97px 97px, #00A4BA 98px 98px, #00A4BA 99px 99px, #00A4BA 100px 100px;
 }
 #contact-section {
-  padding: 90px 0;
+  padding: 95px 0 0px;
 }
 #contact-section .contact-form {
-  margin-top: 42px;
+  margin-top: 20px;
 }
 #contact-section .contact-form .btn-send {
   margin-top: 35px;
@@ -530,7 +581,7 @@ figure figcaption p {
 }
 #contact-section .address,
 #contact-section .email,
-#contact-section .phone {
+#contact-section .help {
   text-align: center;
   background: #F7F7F7;
   padding: 20px 0 40px 0;
@@ -538,18 +589,32 @@ figure figcaption p {
 }
 #contact-section .address i,
 #contact-section .email i,
-#contact-section .phone i {
+#contact-section .help i {
   font-size: 45px;
   color: #02BDD5;
 }
 #contact-section .address h5,
 #contact-section .email h5,
-#contact-section .phone h5 {
+#contact-section .help h5 {
   font-size: 16px;
   line-height: 1.4;
 }
+#contact-section .address a,
+#contact-section .email a,
+#contact-section .help a {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #555;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+#contact-section .address a:hover,
+#contact-section .email a:hover,
+#contact-section .help a:hover {
+  color: #02BDD5;
+}
 #contact-section .address-details {
-  padding-top: 70px;
+  padding-top: 40px;
 }
 #map-canvas {
   width: 100%;
@@ -880,19 +945,6 @@ ul.social-icons li {
 .wrapper_404 h2 {
   font-size: 50px;
   margin-top: 0;
-}
-.wrapper_404 .btn-home {
-  background: #414141;
-  border: none;
-  color: #fff;
-  padding: 20px 35px;
-  margin-top: 10px;
-  font-size: 16px;
-  font-size: 13px;
-  line-height: 1em;
-  text-transform: uppercase;
-  letter-spacing: normal;
-  border-radius: 0;
 }
 .company-description {
   margin-top: 80px;

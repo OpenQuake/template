@@ -21,28 +21,10 @@
 		"oAP": "\/404.html",
 		"oF": 0
 		},
-	"\/about.html": {
+	"\/500.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/about.html",
-		"oF": 0
-		},
-	"\/blog-fullwidth.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/blog-fullwidth.html",
-		"oF": 0
-		},
-	"\/blog-left-sidebar.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/blog-left-sidebar.html",
-		"oF": 0
-		},
-	"\/blog-right-sidebar.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/blog-right-sidebar.html",
+		"oAP": "\/500.html",
 		"oF": 0
 		},
 	"\/contact.html": {
@@ -203,12 +185,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/free-license.pdf",
-		"oF": 0
-		},
-	"\/gallery.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/gallery.html",
 		"oF": 0
 		},
 	"\/images\/about\/about-company.jpg": {
@@ -611,12 +587,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/index2.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index2.html",
-		"oF": 0
-		},
 	"\/js\/bootstrap.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -723,22 +693,70 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/service.html": {
+	"\/old-pages\/about.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/service.html",
+		"oAP": "\/old-pages\/about.html",
 		"oF": 0
 		},
-	"\/single-portfolio.html": {
+	"\/old-pages\/blog-fullwidth.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/single-portfolio.html",
+		"oAP": "\/old-pages\/blog-fullwidth.html",
 		"oF": 0
 		},
-	"\/single-post.html": {
+	"\/old-pages\/blog-left-sidebar.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/single-post.html",
+		"oAP": "\/old-pages\/blog-left-sidebar.html",
+		"oF": 0
+		},
+	"\/old-pages\/blog-right-sidebar.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old-pages\/blog-right-sidebar.html",
+		"oF": 0
+		},
+	"\/old-pages\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old-pages\/contact.html",
+		"oF": 0
+		},
+	"\/old-pages\/gallery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old-pages\/gallery.html",
+		"oF": 0
+		},
+	"\/old-pages\/index2.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old-pages\/index2.html",
+		"oF": 0
+		},
+	"\/old-pages\/service.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old-pages\/service.html",
+		"oF": 0
+		},
+	"\/old-pages\/single-portfolio.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old-pages\/single-portfolio.html",
+		"oF": 0
+		},
+	"\/old-pages\/single-post.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old-pages\/single-post.html",
+		"oF": 0
+		},
+	"\/privacy.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/privacy.html",
 		"oF": 0
 		}
 	},
