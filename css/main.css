@@ -73,6 +73,11 @@ textarea.form-control {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
+@media (max-width: 767px) {
+  .btn {
+    font-size: 18px !important;
+  }
+}
 .btn-primary {
   color: #fff;
   outline: none;
@@ -262,6 +267,11 @@ textarea.form-control {
 }
 .login .forgot-password:hover {
   color: #02BDD5 !important;
+}
+@media (max-width: 767px) {
+  .login .forgot-password {
+    font-size: 14px !important;
+  }
 }
 .login .btn-primary {
   width: 100%;
@@ -638,6 +648,19 @@ figure figcaption p {
   #contact-section .button .btn {
     width: 100%;
   }
+}
+#login-page {
+  padding: 95px 0 40px;
+  min-width: 0;
+}
+#login-page .title {
+  text-align: center;
+}
+#login-page .button {
+  text-align: center;
+}
+#login-page .btn {
+  width: 100%;
 }
 #map-canvas {
   width: 100%;

@@ -27,12 +27,6 @@
 		"oAP": "\/500.html",
 		"oF": 0
 		},
-	"\/contact copia.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/contact copia.html",
-		"oF": 0
-		},
 	"\/contact.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -704,6 +698,12 @@
 		"sI": 0,
 		"sM": 0,
 		"sU": 0
+		},
+	"\/login.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/login.html",
+		"oF": 0
 		},
 	"\/old-pages\/about.html": {
 		"ft": 8192,

@@ -85,6 +85,12 @@ textarea, textarea.form-control {
 	font-weight: 300;
 }
 
+.btn {
+	@media (max-width: 767px) {
+		font-size: 18px !important;
+	}
+}
+
 .btn-primary {
 	color: #fff;
 	outline: none;
@@ -296,6 +302,10 @@ textarea, textarea.form-control {
 
 		&:hover {
 			color: @primary-color !important;
+		}
+
+		@media (max-width: 767px) {
+			font-size: 14px !important;
 		}
 	}
 
@@ -673,11 +683,6 @@ figure {
 	
 }
 
-
-
-
-
-
 #contact-section {
 	padding: 95px 0 0px;
 	.contact-form {
@@ -737,6 +742,24 @@ figure {
 				width: 100%;
 			}
 		}
+	}
+}
+
+
+#login-page {
+	padding: 95px 0 40px;
+	min-width: 0;
+
+	.title {
+		text-align: center;
+	}
+
+	.button {
+		text-align: center;
+	}
+
+	.btn {
+		width: 100%;
 	}
 }
 
