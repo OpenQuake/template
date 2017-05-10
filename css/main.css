@@ -2,7 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Glegoo);
 /* usato per i hover */
-/* hover bottoni */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -86,8 +85,9 @@ textarea {
   border: 1px solid rgba(111, 121, 122, 0.3);
 }
 .btn-primary:hover {
-  background: #0197aa !important;
-  border: 1px solid rgba(111, 121, 122, 0.3);
+  background: #fff;
+  color: #02BDD5;
+  border: 1px solid #02BDD5;
 }
 .section-heading {
   text-align: center;
