@@ -187,6 +187,12 @@
 		"oAP": "\/free-license.pdf",
 		"oF": 0
 		},
+	"\/generic.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/generic.html",
+		"oF": 0
+		},
 	"\/images\/about\/about-company.jpg": {
 		"ft": 16384,
 		"iS": 515646,
