@@ -340,7 +340,7 @@ textarea, textarea.form-control {
 		color: #999;
 
 		@media (max-width: 1199px) {
-			font-size: 14px;
+			font-size: 13px;
 			text-align: center;
 			margin-top: 20px;
 		}
@@ -354,7 +354,7 @@ textarea, textarea.form-control {
 			margin-bottom: 20px;
 
 			h4, a {
-				font-size: 16px;
+				font-size: 14px;
 			}
 		}
 	}
@@ -1286,9 +1286,17 @@ ul.social-icons li {
 		padding-top: 33px;
 		padding-left: 50px;
 
+		@media (max-width: 991px) {
+			padding-left: 0 !important;
+		}
+
 		.page-header {
 
 			border-bottom: 1px solid @border-color;
+
+			@media (max-width: 767px) {
+				text-align: center;
+			}
 
 			.title h2 {
 				font-size: 30px;

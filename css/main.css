@@ -302,7 +302,7 @@ textarea.form-control {
 }
 @media (max-width: 1199px) {
   #footer p {
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     margin-top: 20px;
   }
@@ -317,7 +317,7 @@ textarea.form-control {
   }
   #footer .links h4,
   #footer .links a {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 /*---page legal---*/
@@ -1099,8 +1099,18 @@ ul.social-icons li {
   padding-top: 33px;
   padding-left: 50px;
 }
+@media (max-width: 991px) {
+  .sidebar-page .page-content {
+    padding-left: 0 !important;
+  }
+}
 .sidebar-page .page-content .page-header {
   border-bottom: 1px solid #caecf9;
+}
+@media (max-width: 767px) {
+  .sidebar-page .page-content .page-header {
+    text-align: center;
+  }
 }
 .sidebar-page .page-content .page-header .title h2 {
   font-size: 30px;
