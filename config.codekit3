@@ -770,6 +770,12 @@
 		"oA": 2,
 		"oAP": "\/privacy.html",
 		"oF": 0
+		},
+	"\/sidebar-page-container.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sidebar-page-container.html",
+		"oF": 0
 		}
 	},
 "hooks": [
