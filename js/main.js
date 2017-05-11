@@ -16,17 +16,17 @@
             var $section = $(document).find( $(this).data('section') );
             if ( $section.length < 1 ) {
                 return false;
-            };
+            }
 
             if ( $('html, body').is(':animated') ) {
                 $('html, body').stop( true, true );
-            };
+            }
 
             var scrollPos = $section.offset().top;
 
             if ( $(window).scrollTop() == scrollPos ) {
                 return false;
-            };
+            }
 
             config.callbackBeforeTransition(eventVal, $section);
 
@@ -41,7 +41,7 @@
 
 
 
-jQuery(document).ready(function(){
+/*jQuery(document).ready(function(){
 	"use strict";
 	new WOW().init();
 
@@ -50,7 +50,7 @@ jQuery(document).ready(function(){
  jQuery('.smooth-scroll').scrollingTo();
 }());
 
-});
+});*/
 
 
 
@@ -77,7 +77,7 @@ $(document).ready(function(){
         items : 5,
         autoplay: true,
 
-    })
+    });
 
 });
 
