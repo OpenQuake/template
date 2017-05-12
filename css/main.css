@@ -187,14 +187,15 @@ textarea.form-control {
   transition: all 0.2s ease-out 0s;
   padding: 12px;
   border-bottom: 1px solid #caecf9;
+  /*&.animated-header {
+		padding: 20px 0;
+		background: rgb(255, 255, 255);
+		box-shadow: none;
+		
+	}*/
 }
 #top-bar .navbar-nav > li > a:hover {
   background: transparent;
-}
-#top-bar.animated-header {
-  padding: 20px 0;
-  background: #ffffff;
-  box-shadow: none;
 }
 #top-bar .main-menu li > a {
   color: #666;
