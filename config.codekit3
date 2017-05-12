@@ -193,6 +193,18 @@
 		"oAP": "\/forgot-password-2.html",
 		"oF": 0
 		},
+	"\/forgot-password-3.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/forgot-password-3.html",
+		"oF": 0
+		},
+	"\/forgot-password-4.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/forgot-password-4.html",
+		"oF": 0
+		},
 	"\/free-license.pdf": {
 		"ft": 8192,
 		"oA": 2,
