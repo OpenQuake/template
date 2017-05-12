@@ -52,6 +52,9 @@ input.form-control {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
+input[type="checkbox"] {
+  height: auto;
+}
 textarea,
 textarea.form-control {
   display: block;
@@ -445,7 +448,7 @@ textarea.form-control {
 #call-to-action .block p {
   font-size: 15px;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 20px;
 }
 #call-to-action .block .btn-contact {
@@ -539,6 +542,47 @@ textarea.form-control {
 }
 #login-page .btn {
   width: 100%;
+}
+#registraion-page {
+  padding: 95px 0 40px;
+  min-width: 0;
+}
+#registraion-page .title {
+  text-align: center;
+}
+#registraion-page .button {
+  text-align: center;
+}
+#registraion-page .btn {
+  width: 100%;
+}
+#registraion-page .checkbox {
+  margin-top: 20px;
+  text-align: center;
+}
+#registraion-page .checkbox label {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none;
+  color: #777;
+}
+#registraion-page .checkbox label a {
+  font-weight: 600;
+  color: #555;
+}
+#registraion-page .checkbox label a:hover {
+  color: #02BDD5;
+}
+#forgot-password {
+  padding: 95px 0 40px;
+  min-width: 0;
+}
+#forgot-password .title {
+  text-align: center;
+}
+#forgot-password p {
+  text-align: center;
 }
 #hero-area {
   background: url('../images/slider.jpg') no-repeat 50%;

@@ -181,6 +181,18 @@
 		"oAP": "\/fonts\/ionicons.woff",
 		"oF": 0
 		},
+	"\/forgot-password-1.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/forgot-password-1.html",
+		"oF": 0
+		},
+	"\/forgot-password-2.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/forgot-password-2.html",
+		"oF": 0
+		},
 	"\/free-license.pdf": {
 		"ft": 8192,
 		"oA": 2,
@@ -778,6 +790,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/privacy.html",
+		"oF": 0
+		},
+	"\/registration.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/registration.html",
 		"oF": 0
 		},
 	"\/sidebar-page-container.html": {
