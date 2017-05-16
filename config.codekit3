@@ -804,6 +804,12 @@
 		"oAP": "\/privacy.html",
 		"oF": 0
 		},
+	"\/quakes-map.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/quakes-map.html",
+		"oF": 0
+		},
 	"\/registration.html": {
 		"ft": 8192,
 		"oA": 2,

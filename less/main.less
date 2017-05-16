@@ -661,7 +661,100 @@ textarea, textarea.form-control {
 
 }
 
+#quakes-map {
 
+	padding: 100px 0 25px;
+	.map {
+		min-height: 500px;
+	}
+}
+
+//pagina sidebar
+.sidebar-page {
+	padding:40px 0 80px;
+
+	.sidebar {
+		padding-top: 60px;
+
+		.title {
+			h3 {
+				font-size: 23px;
+				line-height: 1.1;
+				font-weight: 300;
+				color: #333;
+				text-transform: uppercase;
+				margin-bottom: 20px;
+				padding-left: 10px;
+			}
+		}
+
+		.sidebar-menu ul li {
+
+			margin-bottom: 15px;
+			padding: 3px 0;
+
+			a {
+				font-family: @open-sans;
+				text-transform: none;
+				font-size: 16px;
+				font-weight: 300;
+				color: #555;
+				padding-left: 10px;
+			}
+
+			&:hover {
+				background: @primary-color;
+
+				a {
+					color: #fff;
+				}
+			}
+
+		}
+
+		li.selected {
+			background: @primary-color;
+
+			a {
+				color: #fff !important;
+			}
+		}
+
+	}
+
+	.page-content {
+
+		padding-top: 33px;
+		padding-left: 50px;
+
+		@media (max-width: 991px) {
+			padding-left: 0 !important;
+		}
+
+		.page-header {
+
+			border-bottom: 1px solid @border-color;
+
+			@media (max-width: 767px) {
+				text-align: center;
+			}
+
+			.title h2 {
+				font-size: 30px;
+				line-height: 1.1;
+				font-weight: 300;
+				color: #333;
+				text-transform: none;
+			}
+
+			.path h5 {
+				font-size: 12px;
+				font-weight: 400;
+			}
+
+		}
+	}
+}
 
 
 
@@ -1322,91 +1415,6 @@ ul.social-icons li {
 
 
 // Full Width Blog
-.sidebar-page {
-	padding:40px 0 80px;
-
-	.sidebar {
-		padding-top: 60px;
-
-		.title {
-			h3 {
-				font-size: 23px;
-				line-height: 1.1;
-				font-weight: 300;
-				color: #333;
-				text-transform: uppercase;
-				margin-bottom: 20px;
-				padding-left: 10px;
-			}
-		}
-
-		.sidebar-menu ul li {
-
-			margin-bottom: 15px;
-			padding: 3px 0;
-
-			a {
-				font-family: @open-sans;
-				text-transform: none;
-				font-size: 16px;
-				font-weight: 300;
-				color: #555;
-				padding-left: 10px;
-			}
-
-			&:hover {
-				background: @primary-color;
-
-				a {
-					color: #fff;
-				}
-			}
-
-		}
-
-		li.selected {
-			background: @primary-color;
-
-			a {
-				color: #fff !important;
-			}
-		}
-
-	}
-
-	.page-content {
-
-		padding-top: 33px;
-		padding-left: 50px;
-
-		@media (max-width: 991px) {
-			padding-left: 0 !important;
-		}
-
-		.page-header {
-
-			border-bottom: 1px solid @border-color;
-
-			@media (max-width: 767px) {
-				text-align: center;
-			}
-
-			.title h2 {
-				font-size: 30px;
-				line-height: 1.1;
-				font-weight: 300;
-				color: #333;
-				text-transform: none;
-			}
-
-			.path h5 {
-				font-size: 12px;
-				font-weight: 400;
-			}
-
-		}
-	}
-}
 
 
 

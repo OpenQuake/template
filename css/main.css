@@ -584,6 +584,79 @@ textarea.form-control {
 #forgot-password p {
   text-align: center;
 }
+#quakes-map {
+  padding: 100px 0 25px;
+}
+#quakes-map .map {
+  min-height: 500px;
+}
+.sidebar-page {
+  padding: 40px 0 80px;
+}
+.sidebar-page .sidebar {
+  padding-top: 60px;
+}
+.sidebar-page .sidebar .title h3 {
+  font-size: 23px;
+  line-height: 1.1;
+  font-weight: 300;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.sidebar-page .sidebar .sidebar-menu ul li {
+  margin-bottom: 15px;
+  padding: 3px 0;
+}
+.sidebar-page .sidebar .sidebar-menu ul li a {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none;
+  font-size: 16px;
+  font-weight: 300;
+  color: #555;
+  padding-left: 10px;
+}
+.sidebar-page .sidebar .sidebar-menu ul li:hover {
+  background: #02BDD5;
+}
+.sidebar-page .sidebar .sidebar-menu ul li:hover a {
+  color: #fff;
+}
+.sidebar-page .sidebar li.selected {
+  background: #02BDD5;
+}
+.sidebar-page .sidebar li.selected a {
+  color: #fff !important;
+}
+.sidebar-page .page-content {
+  padding-top: 33px;
+  padding-left: 50px;
+}
+@media (max-width: 991px) {
+  .sidebar-page .page-content {
+    padding-left: 0 !important;
+  }
+}
+.sidebar-page .page-content .page-header {
+  border-bottom: 1px solid #caecf9;
+}
+@media (max-width: 767px) {
+  .sidebar-page .page-content .page-header {
+    text-align: center;
+  }
+}
+.sidebar-page .page-content .page-header .title h2 {
+  font-size: 30px;
+  line-height: 1.1;
+  font-weight: 300;
+  color: #333;
+  text-transform: none;
+}
+.sidebar-page .page-content .page-header .path h5 {
+  font-size: 12px;
+  font-weight: 400;
+}
 #hero-area {
   background: url('../images/slider.jpg') no-repeat 50%;
   background-size: cover;
@@ -1132,73 +1205,6 @@ ul.social-icons li {
 }
 .about-feature .about-feature-3 {
   background: #00A6BB;
-}
-.sidebar-page {
-  padding: 40px 0 80px;
-}
-.sidebar-page .sidebar {
-  padding-top: 60px;
-}
-.sidebar-page .sidebar .title h3 {
-  font-size: 23px;
-  line-height: 1.1;
-  font-weight: 300;
-  color: #333;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-left: 10px;
-}
-.sidebar-page .sidebar .sidebar-menu ul li {
-  margin-bottom: 15px;
-  padding: 3px 0;
-}
-.sidebar-page .sidebar .sidebar-menu ul li a {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: none;
-  font-size: 16px;
-  font-weight: 300;
-  color: #555;
-  padding-left: 10px;
-}
-.sidebar-page .sidebar .sidebar-menu ul li:hover {
-  background: #02BDD5;
-}
-.sidebar-page .sidebar .sidebar-menu ul li:hover a {
-  color: #fff;
-}
-.sidebar-page .sidebar li.selected {
-  background: #02BDD5;
-}
-.sidebar-page .sidebar li.selected a {
-  color: #fff !important;
-}
-.sidebar-page .page-content {
-  padding-top: 33px;
-  padding-left: 50px;
-}
-@media (max-width: 991px) {
-  .sidebar-page .page-content {
-    padding-left: 0 !important;
-  }
-}
-.sidebar-page .page-content .page-header {
-  border-bottom: 1px solid #caecf9;
-}
-@media (max-width: 767px) {
-  .sidebar-page .page-content .page-header {
-    text-align: center;
-  }
-}
-.sidebar-page .page-content .page-header .title h2 {
-  font-size: 30px;
-  line-height: 1.1;
-  font-weight: 300;
-  color: #333;
-  text-transform: none;
-}
-.sidebar-page .page-content .page-header .path h5 {
-  font-size: 12px;
-  font-weight: 400;
 }
 article {
   padding: 30px 0;
