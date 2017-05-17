@@ -133,6 +133,11 @@
         Content section start
         ================================================== -->
         <section id="quakes-map">
+
+            <div id="test1">
+                <p>ciao come va?</p>
+            </div>
+
             <script>
               // This example creates circles on the map, representing populations in North
               // America.
@@ -195,6 +200,14 @@
                     //apro infowindows
                     infoWindow.open(map, cityCircle);
                   }); 
+
+                  //custom controls
+                    var control = $("#test1");
+                    control.index = 1;
+
+                    //control.hide();
+
+                    map.controls[google.maps.ControlPosition.TOP_CENTER].push(control);
 
                 } //end for
               }

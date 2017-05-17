@@ -665,7 +665,12 @@ textarea, textarea.form-control {
 
 	padding: 100px 0 25px;
 	.map {
-		min-height: 500px;
+
+		min-height: 480px;
+
+		@media (max-width: 991px) {
+			min-height: 300px !important;
+		}
 	}
 }
 
