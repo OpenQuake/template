@@ -79,6 +79,14 @@ textarea.form-control {
     font-size: 18px !important;
   }
 }
+a.btn {
+  padding: 10px 12px !important;
+}
+@media (max-width: 767px) {
+  a.btn {
+    padding: 6px 12px !important;
+  }
+}
 .btn-primary {
   color: #fff;
   outline: none;
@@ -97,6 +105,28 @@ textarea.form-control {
   background: #fff;
   color: #02BDD5;
   border: 1px solid #02BDD5;
+}
+.btn-primary-reverse {
+  color: #02BDD5;
+  outline: none;
+  background: #fff;
+  display: block;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.428571429;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  border-radius: 1px;
+  border: 1px solid #02BDD5;
+  text-transform: uppercase;
+}
+.btn-primary-reverse:hover {
+  background: #02BDD5;
+  color: #fff;
+  border: 1px solid rgba(111, 121, 122, 0.3);
+}
+a.btn-primary-reverse {
+  padding: 10px 12px;
 }
 .btn-home {
   background: #414141;
@@ -661,6 +691,53 @@ textarea.form-control {
 .sidebar-page .page-content .page-header .path h5 {
   font-size: 12px;
   font-weight: 400;
+}
+.sidebar-page .page-content .page-description {
+  font-size: 13px;
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .sidebar-page .page-content .page-description {
+    text-align: center;
+  }
+}
+#account-delete .message {
+  height: 100px;
+  width: 600px;
+}
+@media (max-width: 767px) {
+  #account-delete .message {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #account-delete h4 {
+    text-align: center;
+  }
+}
+#account-delete .buttons {
+  margin-top: 20px;
+}
+#account-delete .buttons a {
+  float: left;
+}
+@media (max-width: 767px) {
+  #account-delete .buttons a {
+    float: none;
+    width: 100%;
+  }
+}
+#account-delete .buttons input {
+  float: left;
+  margin-left: 15px;
+}
+@media (max-width: 767px) {
+  #account-delete .buttons input {
+    float: none;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0;
+  }
 }
 #hero-area {
   background: url('../images/slider.jpg') no-repeat 50%;

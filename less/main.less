@@ -90,6 +90,14 @@ textarea, textarea.form-control {
 	}
 }
 
+a.btn {
+	padding: 10px 12px !important; 
+
+	@media (max-width: 767px) {
+		padding: 6px 12px !important; 
+	}
+}
+
 .btn-primary {
 	color: #fff;
 	outline: none;
@@ -109,6 +117,35 @@ textarea, textarea.form-control {
 		color: @primary-color;
 		border: 1px solid @primary-color;
 	}
+}
+
+a.btn-primary {
+	
+}
+
+.btn-primary-reverse {
+	color: @primary-color;
+	outline: none;
+	background: #fff;
+	display: block;
+	height: 40px;
+	padding: 6px 12px;
+	font-size: 13px;
+	line-height: 1.428571429;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	border-radius: 1px;
+	border: 1px solid @primary-color;
+	text-transform: uppercase;
+
+	&:hover {
+		background: @primary-color;
+		color: #fff;
+		border: 1px solid rgba(111, 121, 122, 0.3);
+	}
+}
+
+a.btn-primary-reverse {
+	padding: 10px 12px;
 }
 
 .btn-home {
@@ -758,9 +795,61 @@ textarea, textarea.form-control {
 			}
 
 		}
+
+		.page-description {
+			font-size: 13px;
+			margin-bottom: 40px;
+
+			@media (max-width: 767px) {
+				text-align: center;
+			}
+		}
 	}
 }
 
+#account-delete {
+	.message {
+		height: 100px;
+		width: 600px;
+
+		@media (max-width: 767px) {
+			width: 100%;
+		}
+	}
+
+	h4 {
+		@media (max-width: 767px) {
+			text-align: center;
+		}
+
+	}
+
+	.buttons {
+
+		margin-top: 20px;
+
+		a {
+			float: left;
+
+			@media (max-width: 767px) {
+				float: none;
+				width: 100%;
+			}
+		}
+
+		input {
+			float: left;
+			margin-left: 15px;
+
+			@media (max-width: 767px) {
+				float: none;
+				width: 100%;
+				margin-top: 15px;
+				margin-left: 0;
+			}
+		}
+	}
+}
 
 
 
