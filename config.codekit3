@@ -27,6 +27,12 @@
 		"oAP": "\/500.html",
 		"oF": 0
 		},
+	"\/account-account-info.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/account-account-info.html",
+		"oF": 0
+		},
 	"\/account-delete.html": {
 		"ft": 8192,
 		"oA": 2,
