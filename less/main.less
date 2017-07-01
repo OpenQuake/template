@@ -773,6 +773,53 @@ a.btn-primary-reverse {
 			padding-left: 0 !important;
 		}
 
+		.content {
+			a {
+				color: #333333;
+
+				&:hover{
+					color: @primary-color;
+				}
+			}
+
+			b {
+				font-weight: 600;
+				color: #555;
+			}
+
+			p {
+				font-size: 13px;
+				font-weight: 300;
+
+				@media (max-width: 767px) {
+					text-align: center;
+				}
+			}
+
+			li {
+				font-size: 12px;
+				font-weight: 300;
+
+				list-style-type: disc;
+				list-style-position: inside;
+				margin-left: 10px;
+
+				@media (max-width: 767px) {
+					text-align: center;
+					margin-left: 0;
+				}
+			}
+
+			h4 {
+				@media (max-width: 767px) {
+					text-align: center;
+				}
+
+			}
+		}
+
+		
+
 		.page-header {
 
 			border-bottom: 1px solid @border-color;
@@ -798,13 +845,26 @@ a.btn-primary-reverse {
 
 		.page-description {
 			font-size: 13px;
+			font-weight: 300;
 			margin-bottom: 40px;
 
 			@media (max-width: 767px) {
 				text-align: center;
 			}
+
+			p {
+				font-size: 13px;
+				font-weight: 300;
+
+				@media (max-width: 767px) {
+					text-align: center;
+				}
+			}
+
 		}
+
 	}
+
 }
 
 #account-delete {
@@ -815,13 +875,6 @@ a.btn-primary-reverse {
 		@media (max-width: 767px) {
 			width: 100%;
 		}
-	}
-
-	h4 {
-		@media (max-width: 767px) {
-			text-align: center;
-		}
-
 	}
 
 	.buttons {
@@ -847,6 +900,44 @@ a.btn-primary-reverse {
 				margin-top: 15px;
 				margin-left: 0;
 			}
+		}
+	}
+}
+
+#account-account-info {
+	.section {
+		h4 {
+			margin-bottom: 20px;
+		}
+	}
+	.dashboard {
+
+		.item {
+			max-width: 210px;
+			margin: 0 auto;
+			border: 4px solid #DDDDDD;
+			border-radius: 15px;
+			padding: 10px 0;
+
+			@media (max-width: 767px) {
+				margin-bottom: 15px;
+			}
+
+			p {
+				text-align: center;
+				margin: 5px 0;
+				font-size: 17px;
+			}
+
+			.number {
+				color: @primary-color;
+				text-align: center;
+				font-size: 30px;
+				font-weight: 900;
+				letter-spacing: 1px;
+				margin-bottom: 12px;
+			}
+
 		}
 	}
 }

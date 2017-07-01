@@ -7,7 +7,7 @@
 		"uuidString": "2BE8B8DE-7674-4D2C-9897-62C9E7EC297B"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -27,16 +27,16 @@
 		"oAP": "\/500.html",
 		"oF": 0
 		},
+	"\/account-account-info-delete.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/account-account-info-delete.html",
+		"oF": 0
+		},
 	"\/account-account-info.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/account-account-info.html",
-		"oF": 0
-		},
-	"\/account-delete.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/account-delete.html",
 		"oF": 0
 		},
 	"\/contact.html": {
@@ -2779,6 +2779,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",

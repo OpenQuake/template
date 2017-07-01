@@ -673,6 +673,43 @@ a.btn-primary-reverse {
     padding-left: 0 !important;
   }
 }
+.sidebar-page .page-content .content a {
+  color: #333333;
+}
+.sidebar-page .page-content .content a:hover {
+  color: #02BDD5;
+}
+.sidebar-page .page-content .content b {
+  font-weight: 600;
+  color: #555;
+}
+.sidebar-page .page-content .content p {
+  font-size: 13px;
+  font-weight: 300;
+}
+@media (max-width: 767px) {
+  .sidebar-page .page-content .content p {
+    text-align: center;
+  }
+}
+.sidebar-page .page-content .content li {
+  font-size: 12px;
+  font-weight: 300;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  .sidebar-page .page-content .content li {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .sidebar-page .page-content .content h4 {
+    text-align: center;
+  }
+}
 .sidebar-page .page-content .page-header {
   border-bottom: 1px solid #caecf9;
 }
@@ -694,10 +731,20 @@ a.btn-primary-reverse {
 }
 .sidebar-page .page-content .page-description {
   font-size: 13px;
+  font-weight: 300;
   margin-bottom: 40px;
 }
 @media (max-width: 767px) {
   .sidebar-page .page-content .page-description {
+    text-align: center;
+  }
+}
+.sidebar-page .page-content .page-description p {
+  font-size: 13px;
+  font-weight: 300;
+}
+@media (max-width: 767px) {
+  .sidebar-page .page-content .page-description p {
     text-align: center;
   }
 }
@@ -708,11 +755,6 @@ a.btn-primary-reverse {
 @media (max-width: 767px) {
   #account-delete .message {
     width: 100%;
-  }
-}
-@media (max-width: 767px) {
-  #account-delete h4 {
-    text-align: center;
   }
 }
 #account-delete .buttons {
@@ -738,6 +780,34 @@ a.btn-primary-reverse {
     margin-top: 15px;
     margin-left: 0;
   }
+}
+#account-account-info .section h4 {
+  margin-bottom: 20px;
+}
+#account-account-info .dashboard .item {
+  max-width: 210px;
+  margin: 0 auto;
+  border: 4px solid #DDDDDD;
+  border-radius: 15px;
+  padding: 10px 0;
+}
+@media (max-width: 767px) {
+  #account-account-info .dashboard .item {
+    margin-bottom: 15px;
+  }
+}
+#account-account-info .dashboard .item p {
+  text-align: center;
+  margin: 5px 0;
+  font-size: 17px;
+}
+#account-account-info .dashboard .item .number {
+  color: #02BDD5;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
 }
 #hero-area {
   background: url('../images/slider.jpg') no-repeat 50%;
