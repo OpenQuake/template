@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 /* usato per i hover */
+/* usato per i hover */
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -102,9 +103,8 @@ a.btn {
   text-transform: uppercase;
 }
 .btn-primary:hover {
-  background: #fff;
-  color: #02BDD5;
-  border: 1px solid #02BDD5;
+  background: #0197AA;
+  border: 1px solid rgba(111, 121, 122, 0.3);
 }
 .btn-primary-reverse {
   color: #02BDD5;
@@ -119,10 +119,11 @@ a.btn {
   border-radius: 1px;
   border: 1px solid #02BDD5;
   text-transform: uppercase;
+  font-weight: 400 !important;
 }
 .btn-primary-reverse:hover {
   background: #02BDD5;
-  color: #fff;
+  color: #fff !important;
   border: 1px solid rgba(111, 121, 122, 0.3);
 }
 a.btn-primary-reverse {
@@ -492,6 +493,9 @@ a.btn-primary-reverse {
   text-transform: uppercase;
   border-radius: 0;
 }
+#call-to-action .block .btn-contact:hover {
+  text-decoration: underline;
+}
 #call-to-action .block .btn-contact i {
   margin-right: 10px;
 }
@@ -674,10 +678,18 @@ a.btn-primary-reverse {
   }
 }
 .sidebar-page .page-content .content a {
-  color: #333333;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #02BDD5;
 }
 .sidebar-page .page-content .content a:hover {
-  color: #02BDD5;
+  color: #0197AA;
+}
+@media (max-width: 767px) {
+  .sidebar-page .page-content .content a {
+    text-align: center;
+  }
 }
 .sidebar-page .page-content .content b {
   font-weight: 600;
@@ -781,7 +793,7 @@ a.btn-primary-reverse {
     margin-left: 0;
   }
 }
-#account-account-info .section h4 {
+#account-account-info .dashboard h4 {
   margin-bottom: 20px;
 }
 #account-account-info .dashboard .item {
@@ -808,6 +820,9 @@ a.btn-primary-reverse {
   font-weight: 900;
   letter-spacing: 1px;
   margin-bottom: 12px;
+}
+#account-account-info .account p {
+  margin: 0;
 }
 #hero-area {
   background: url('../images/slider.jpg') no-repeat 50%;

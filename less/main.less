@@ -2,6 +2,7 @@
 
 
 @primary-color: #02BDD5; /* usato per i hover */
+@primary-color-dark: #0197AA; /* usato per i hover */
 @border-color: #caecf9;
 @shadow: #00A4BA;
 @open-sans: 'Open Sans', sans-serif;
@@ -113,9 +114,8 @@ a.btn {
 	text-transform: uppercase;
 
 	&:hover {
-		background: #fff;
-		color: @primary-color;
-		border: 1px solid @primary-color;
+		background: @primary-color-dark;
+		border: 1px solid rgba(111, 121, 122, 0.3);
 	}
 }
 
@@ -136,10 +136,11 @@ a.btn-primary {
 	border-radius: 1px;
 	border: 1px solid @primary-color;
 	text-transform: uppercase;
+	font-weight: 400 !important;
 
 	&:hover {
 		background: @primary-color;
-		color: #fff;
+		color: #fff !important;
 		border: 1px solid rgba(111, 121, 122, 0.3);
 	}
 }
@@ -559,6 +560,10 @@ a.btn-primary-reverse {
 			text-transform: uppercase;
 			border-radius: 0;
 
+			&:hover {
+				text-decoration: underline;
+			}
+
 			i {
 				margin-right: 10px;
 			}
@@ -775,10 +780,17 @@ a.btn-primary-reverse {
 
 		.content {
 			a {
-				color: #333333;
+				margin: 0;
+				font-size: 13px;
+				font-weight: 600;
+				color: @primary-color;
 
-				&:hover{
-					color: @primary-color;
+				&:hover {
+					color: @primary-color-dark;
+				}
+
+				@media (max-width: 767px) {
+					text-align: center;
 				}
 			}
 
@@ -905,12 +917,11 @@ a.btn-primary-reverse {
 }
 
 #account-account-info {
-	.section {
+	.dashboard {
+
 		h4 {
 			margin-bottom: 20px;
 		}
-	}
-	.dashboard {
 
 		.item {
 			max-width: 210px;
@@ -938,6 +949,12 @@ a.btn-primary-reverse {
 				margin-bottom: 12px;
 			}
 
+		}
+	}
+
+	.account {
+		p {
+			margin: 0;
 		}
 	}
 }
