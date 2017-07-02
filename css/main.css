@@ -942,6 +942,9 @@ a.btn-primary-reverse {
 #account-my-stations .stations .item:last-child {
   margin-bottom: 0;
 }
+#account-my-stations .stations hr:last-child {
+  display: none;
+}
 #hero-area {
   background: url('../images/slider.jpg') no-repeat 50%;
   background-size: cover;
