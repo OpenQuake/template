@@ -686,21 +686,19 @@ a.btn-primary-reverse {
     padding-left: 0 !important;
   }
 }
-.sidebar-page .page-content .content {
-  /*a {
-				margin: 0;
-				font-size: 13px;
-				font-weight: 600;
-				color: @primary-color;
-
-				&:hover {
-					color: @primary-color-dark;
-				}
-
-				@media (max-width: 767px) {
-					text-align: center;
-				}
-			}*/
+.sidebar-page .page-content .content .link {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #02BDD5;
+}
+.sidebar-page .page-content .content .link:hover {
+  color: #0197AA;
+}
+@media (max-width: 767px) {
+  .sidebar-page .page-content .content .link {
+    text-align: center;
+  }
 }
 .sidebar-page .page-content .content b {
   font-weight: 600;
