@@ -840,10 +840,15 @@ a.btn-primary-reverse {
 			}
 
 			h4 {
+				text-transform: uppercase;
+
 				@media (max-width: 767px) {
 					text-align: center;
 				}
 
+				span.label {
+					margin-left: 10px;
+				}
 			}
 		}
 
@@ -1085,14 +1090,9 @@ a.btn-primary-reverse {
 					}
 
 					i {
+						font-size: 15px;
 						@media (max-width: 767px) {
 							font-size: 18px
-						}
-					}
-
-					span {
-						@media (max-width: 767px) {
-							display: none;
 						}
 					}
 
@@ -1117,7 +1117,68 @@ a.btn-primary-reverse {
 
 }
 
+#account-readings {
+	.content {
 
+		h4 {
+			margin-bottom: 17px;
+		}
+	}
+
+	.section:first-child {
+		margin-bottom: 26px;
+	}
+
+	.section {
+
+		.delete {
+			font-size: 13px;
+			font-weight: 300;
+			text-transform: uppercase;
+			margin-right: 10px;
+			letter-spacing: 0.3px;
+			color: #d9534f;
+
+			&:hover {
+				color: #c9302c;
+			}
+
+			i {
+				font-size: 15px;
+				@media (max-width: 767px) {
+					font-size: 18px
+				}
+			}
+		}
+
+		tbody tr td:nth-child(3) {
+			font-size: 12px;
+		}
+
+		nav {
+			text-align: right;
+
+			.pagination {
+				margin: 0;
+
+			}
+
+			@media (max-width: 767px) {
+				text-align: center;
+			}
+
+		}
+
+		p {
+			margin-top: 20px;
+
+			@media (max-width: 767px) {
+				font-size: 13px;
+			}
+		}
+	}
+
+}
 
 
 

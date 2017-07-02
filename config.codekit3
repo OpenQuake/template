@@ -45,6 +45,12 @@
 		"oAP": "\/account-my-stations.html",
 		"oF": 0
 		},
+	"\/account-readings.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/account-readings.html",
+		"oF": 0
+		},
 	"\/contact.html": {
 		"ft": 8192,
 		"oA": 2,
