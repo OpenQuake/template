@@ -145,6 +145,18 @@ a.btn-primary-reverse {
 .btn-home:hover {
   color: #fff;
 }
+/*Ridefinizione label*/
+.label {
+  font-weight: 600;
+  padding: 4px 7px;
+  border-radius: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+.label-default {
+  background-color: #999;
+}
 .section-heading {
   text-align: center;
   margin-bottom: 65px;
