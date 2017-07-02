@@ -949,6 +949,60 @@ a.btn-primary-reverse {
 #account-my-stations .stations hr:last-child {
   display: none;
 }
+#account-my-stations-details .station {
+  margin-bottom: 35px;
+}
+#account-my-stations-details .station .header .name {
+  float: left;
+  color: #02BDD5;
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+#account-my-stations-details .station .header .name:hover {
+  color: #0197AA;
+}
+@media (max-width: 767px) {
+  #account-my-stations-details .station .header .name {
+    font-size: 18px;
+  }
+}
+#account-my-stations-details .station .header .actions {
+  float: right;
+}
+#account-my-stations-details .station .header .actions a {
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-right: 10px;
+  letter-spacing: 0.3px;
+}
+#account-my-stations-details .station .header .actions .toggle {
+  color: #02BDD5;
+}
+#account-my-stations-details .station .header .actions .toggle:hover {
+  color: #0197AA;
+}
+#account-my-stations-details .station .header .actions .edit {
+  color: #5cb85c;
+}
+#account-my-stations-details .station .header .actions .edit:hover {
+  color: #449d44;
+}
+#account-my-stations-details .station .header .actions .delete {
+  color: #d9534f;
+}
+#account-my-stations-details .station .header .actions .delete:hover {
+  color: #c9302c;
+}
+#account-my-stations-details .station .header .actions i {
+  font-size: 15px;
+}
+@media (max-width: 767px) {
+  #account-my-stations-details .station .header .actions i {
+    font-size: 18px;
+  }
+}
 #account-readings .content h4 {
   margin-bottom: 17px;
 }

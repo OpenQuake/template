@@ -1113,8 +1113,74 @@ a.btn-primary-reverse {
 		}
 	}
 
+}
 
+#account-my-stations-details {
+	.station {
+		margin-bottom: 35px;
 
+		.header {
+			.name {
+				float: left;
+				color: @primary-color;
+				font-size: 15px;
+				font-weight: 600;
+				padding-bottom: 7px;
+
+				&:hover {
+					color: @primary-color-dark;
+				}
+
+				@media (max-width: 767px) {
+					font-size: 18px
+				}
+			}
+
+			.actions {
+				float: right;
+
+				a {
+					font-size: 13px;
+					font-weight: 300;
+					text-transform: uppercase;
+					margin-right: 10px;
+					letter-spacing: 0.3px;
+				}
+
+				.toggle {
+					color: @primary-color;
+
+					&:hover {
+						color: @primary-color-dark;
+					}
+				}
+
+				.edit {
+					color: #5cb85c;
+
+					&:hover {
+						color: #449d44;
+					}
+				}
+
+				.delete {
+					color: #d9534f;
+
+					&:hover {
+						color: #c9302c;
+					}
+				}
+
+				i {
+					font-size: 15px;
+					@media (max-width: 767px) {
+						font-size: 18px
+					}
+				}
+
+			}
+		}
+	}
 }
 
 #account-readings {

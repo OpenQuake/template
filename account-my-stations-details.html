@@ -21,31 +21,40 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- Ionicons Fonts Css -->
         <link rel="stylesheet" href="css/ionicons.min.css">
+        
         <!-- owl craousel css -->
         <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/owl.theme.css">
         <link rel="stylesheet" href="css/jquery.fancybox.css">
+
+
         <!-- template main css file -->
         <link rel="stylesheet" href="css/main.css">
         <!-- responsive css -->
         <link rel="stylesheet" href="css/responsive.css">
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <!-- Template Javascript Files
         ================================================== -->
         <!-- modernizr js -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
         <!-- jquery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!--//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js-->
+        
         <!-- owl carouserl js -->
         <script src="js/owl.carousel.min.js"></script>
         <!-- bootstrap js -->
-
         <script src="js/bootstrap.min.js"></script>
         <!-- wow js -->
         <!--<script src="js/wow.min.js"></script>--> <!--animazioni wow-->
         <!-- slider js -->
         <script src="js/slider.js"></script>
         <script src="js/jquery.fancybox.js"></script>
+        
+
         <!-- template main js -->
         <script src="js/main.js"></script>
 
@@ -122,7 +131,7 @@
             </div>
         </header>
 
-        <section id="account-delete" class="sidebar-page">
+        <section id="account-my-stations-details" class="sidebar-page">
             <div class="container">
                 <div class="row">
 
@@ -137,8 +146,8 @@
 
                             <div class="sidebar-menu">
                                 <ul>
-                                    <li class="selected"><a href="#">Account Info</a></li>
-                                    <li><a href="#">My Stations</a></li>
+                                    <li><a href="#">Account Info</a></li>
+                                    <li class="selected"><a href="#">My Stations</a></li>
                                     <li><a href="#">Readings</a></li>
                                 </ul>
                             </div>
@@ -157,43 +166,41 @@
 
                             <div class="page-header">
                                 <div class="title">
-                                    <h2>Delete Account</h2>
+                                    <h2>Station Details</h2>
                                 </div>
                                 <div class="path">
-                                    <h5>Account > Account Info > Delete</h5>
+                                    <h5>Account > My Stations > Station Details</h5>
                                 </div>
                             </div>
 
                             <div class="content">
-                                <div class="page-description">
-                                    <p>Like the light of distant stars which combusted billions of years ago, your account will be but a <br> reflection of a faint memory once it’s deleted. Are you sure you’d like to delete?</p>
-                                    
-                                    <div>
-                                        <p style="margin-bottom: 0;" class="hidden-xs">Deleting your account:</p>
-                                        <ul class="hidden-xs">
-                                            <li>will <b>not</b> remove your readings from our database</li>
-                                            <li><b>will</b> remove all of your stations</li>
-                                            <li><b>will</b> free your username. Everyone can register it.</li>
-                                        </ul>
-                                        <p>If you think your readings need to be deleted alogside your account, use the box below to tell us why.<br>Beaware of the fact that we can refuse to do it as described into the <a class="link" href="#">Terms of service</a>.</p>
-                                    </div>
-                                </div>
 
-                                <div>
-                                    <h4>WANT TO TELL US WHY?</h4>
-                                    <form>
-
-                                        <div class="form-group">
-                                            <textarea class="message"></textarea>
+                                <div class="station">
+                                    <div class="header">
+                                        <a href="#" class="name">Name</a>
+                                        <div class="actions">
+                                            <a href="#" class="toggle"><i class="fa fa-toggle-off" aria-hidden="true"></i> <span class="hidden-xs">Toggle</span></a>
+                                            <a href="#" class="edit"><i class="fa fa-pencil" aria-hidden="true"></i> <span class="hidden-xs">Edit</span></a>
+                                            <a href="#" class="delete"><i class="fa fa-times" aria-hidden="true"></i> <span class="hidden-xs">Delete</span></a>
                                         </div>
-
-                                        <div class="buttons">
-                                            <a href="#" class="btn btn-primary-reverse">Cancel</a>
-                                            <input type="submit" class="btn btn-primary" value="Submit">
-                                        </div>                   
-                                        
-                                    </form>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <span class="label label-success">ACTIVE</span>
+                                    <span class="label label-warning">PRODUCTION</span>
                                 </div>
+                                <hr>
+
+                                <div class="section">
+                                    <h4>Status</h4>
+                                </div>
+
+                                <hr>
+
+                                <div class="section">
+                                    <h4>Authorization Token</h4>
+                                    
+                                </div>
+
                             </div>
                         </div>
                     </div>
