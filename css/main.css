@@ -1028,6 +1028,14 @@ a.btn-primary-reverse {
     font-size: 18px;
   }
 }
+#account-readings .section tbody tr td:nth-child(2) span {
+  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  #account-readings .section tbody tr td:nth-child(2) span {
+    margin-left: 0;
+  }
+}
 #account-readings .section tbody tr td:nth-child(3) {
   font-size: 12px;
 }
