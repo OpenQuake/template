@@ -63,10 +63,34 @@
 		"oAP": "\/contact.html",
 		"oF": 0
 		},
-	"\/container.html": {
+	"\/containers\/container.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/container.html",
+		"oAP": "\/containers\/container.html",
+		"oF": 0
+		},
+	"\/containers\/generic.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/containers\/generic.html",
+		"oF": 0
+		},
+	"\/containers\/sidebar-page-container.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/containers\/sidebar-page-container.html",
+		"oF": 0
+		},
+	"\/cookie-policy.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/cookie-policy.html",
+		"oF": 0
+		},
+	"\/credits.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/credits.html",
 		"oF": 0
 		},
 	"\/css\/animate.css": {
@@ -177,6 +201,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/faq.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/faq.html",
+		"oF": 0
+		},
 	"\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
@@ -241,10 +271,16 @@
 		"oAP": "\/free-license.pdf",
 		"oF": 0
 		},
-	"\/generic.html": {
+	"\/homepage.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/generic.html",
+		"oAP": "\/homepage.html",
+		"oF": 0
+		},
+	"\/how-to-contribute.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/how-to-contribute.html",
 		"oF": 0
 		},
 	"\/images\/about\/about-company.jpg": {
@@ -828,10 +864,16 @@
 		"oAP": "\/old-pages\/single-post.html",
 		"oF": 0
 		},
-	"\/privacy.html": {
+	"\/open-source.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/privacy.html",
+		"oAP": "\/open-source.html",
+		"oF": 0
+		},
+	"\/privacy-policy.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/privacy-policy.html",
 		"oF": 0
 		},
 	"\/quakes-map.html": {
@@ -846,10 +888,22 @@
 		"oAP": "\/registration.html",
 		"oF": 0
 		},
-	"\/sidebar-page-container.html": {
+	"\/team.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/sidebar-page-container.html",
+		"oAP": "\/team.html",
+		"oF": 0
+		},
+	"\/terms-and-service.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/terms-and-service.html",
+		"oF": 0
+		},
+	"\/why-this-project.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/why-this-project.html",
 		"oF": 0
 		}
 	},

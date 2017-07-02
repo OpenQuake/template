@@ -110,6 +110,7 @@ a.btn {
   border: 1px solid rgba(111, 121, 122, 0.3);
 }
 .btn-primary:hover {
+  color: #fff !important;
   background: #0197AA;
   border: 1px solid rgba(111, 121, 122, 0.3);
 }
@@ -138,6 +139,7 @@ a.btn-primary-reverse {
   text-transform: uppercase;
   letter-spacing: normal;
   border-radius: 0;
+  display: inline-block;
 }
 .btn-home:hover {
   color: #fff;
@@ -230,12 +232,6 @@ a.btn-primary-reverse {
   transition: all 0.2s ease-out 0s;
   padding: 12px;
   border-bottom: 1px solid #caecf9;
-  /*&.animated-header {
-		padding: 20px 0;
-		background: rgb(255, 255, 255);
-		box-shadow: none;
-		
-	}*/
 }
 #top-bar .navbar-nav > li > a:hover {
   background: transparent;
@@ -501,6 +497,7 @@ a.btn-primary-reverse {
   letter-spacing: 2px;
   text-transform: uppercase;
   border-radius: 0;
+  display: inline-block;
 }
 #call-to-action .block .btn-contact:hover {
   text-decoration: underline;
