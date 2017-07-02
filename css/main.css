@@ -698,6 +698,7 @@ a.btn-primary-reverse {
 @media (max-width: 767px) {
   .sidebar-page .page-content .content .link {
     text-align: center;
+    font-size: 16px;
   }
 }
 .sidebar-page .page-content .content b {
@@ -711,6 +712,7 @@ a.btn-primary-reverse {
 @media (max-width: 767px) {
   .sidebar-page .page-content .content p {
     text-align: center;
+    font-size: 16px;
   }
 }
 .sidebar-page .page-content .content li {
@@ -724,6 +726,7 @@ a.btn-primary-reverse {
   .sidebar-page .page-content .content li {
     text-align: center;
     margin-left: 0;
+    font-size: 14px;
   }
 }
 @media (max-width: 767px) {
@@ -758,6 +761,7 @@ a.btn-primary-reverse {
 @media (max-width: 767px) {
   .sidebar-page .page-content .page-description {
     text-align: center;
+    font-size: 16px;
   }
 }
 .sidebar-page .page-content .page-description p {
@@ -767,6 +771,7 @@ a.btn-primary-reverse {
 @media (max-width: 767px) {
   .sidebar-page .page-content .page-description p {
     text-align: center;
+    font-size: 16px;
   }
 }
 #account-delete .message {
@@ -834,11 +839,11 @@ a.btn-primary-reverse {
   margin: 0;
 }
 #account-account-info .account .label {
-  margin-left: 10px;
+  margin: 0 10px;
 }
 @media (max-width: 767px) {
   #account-account-info .account .label {
-    margin-left: 0;
+    margin: 0;
   }
 }
 #account-my-stations .buttons {
