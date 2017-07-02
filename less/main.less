@@ -984,7 +984,9 @@ a.btn-primary-reverse {
 
 #account-my-stations {
 
-	.button {
+	.buttons {
+
+		padding: 8px 0 10px;
 
 		div {
 			text-align: center;
@@ -993,6 +995,15 @@ a.btn-primary-reverse {
 				display: inline;
 			}
 
+			a > i {
+				font-size: 15px;
+				margin-right: 5px;
+
+				@media (max-width: 767px) {
+					font-size: 18px;
+				}
+
+			}
 			a:first-child {
 				margin-right: 25px;
 
@@ -1007,27 +1018,93 @@ a.btn-primary-reverse {
 					display: block;
 				}
 			}
-			/*margin: 0 auto;
-			max-width: 300px;
-
-			button:first-child {
-				float: left;
-				margin-right: 25px;
-
-				@media (max-width: 767px) {
-					float: none;
-					margin-bottom: 25px;
-				}
-			}
-
-			button {
-				@media (max-width: 767px) {
-					width: 100%
-				}
-			}*/
 
 		}
 	}
+
+	.stations {
+
+		.item {
+			margin-bottom: 35px;
+
+			.header {
+				.name {
+					float: left;
+					color: @primary-color;
+					font-size: 15px;
+					font-weight: 600;
+					padding-bottom: 7px;
+
+					&:hover {
+						color: @primary-color-dark;
+					}
+
+					@media (max-width: 767px) {
+						font-size: 18px
+					}
+				}
+
+				.actions {
+					float: right;
+
+					a {
+						font-size: 13px;
+						font-weight: 300;
+						text-transform: uppercase;
+						margin-right: 10px;
+						letter-spacing: 0.3px;
+					}
+
+					.toggle {
+						color: @primary-color;
+
+						&:hover {
+							color: @primary-color-dark;
+						}
+					}
+
+					.edit {
+						color: #5cb85c;
+
+						&:hover {
+							color: #449d44;
+						}
+					}
+
+					.delete {
+						color: #d9534f;
+
+						&:hover {
+							color: #c9302c;
+						}
+					}
+
+					i {
+						@media (max-width: 767px) {
+							font-size: 18px
+						}
+					}
+
+					span {
+						@media (max-width: 767px) {
+							display: none;
+						}
+					}
+
+				}
+			}
+		}
+
+		@media (max-width: 767px) {
+			text-align: left;
+		}
+
+		.item:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+
 
 }
 

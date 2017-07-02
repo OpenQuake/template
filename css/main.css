@@ -841,43 +841,101 @@ a.btn-primary-reverse {
     margin-left: 0;
   }
 }
-#account-my-stations .button div {
-  text-align: center;
-  /*margin: 0 auto;
-			max-width: 300px;
-
-			button:first-child {
-				float: left;
-				margin-right: 25px;
-
-				@media (max-width: 767px) {
-					float: none;
-					margin-bottom: 25px;
-				}
-			}
-
-			button {
-				@media (max-width: 767px) {
-					width: 100%
-				}
-			}*/
+#account-my-stations .buttons {
+  padding: 8px 0 10px;
 }
-#account-my-stations .button div a {
+#account-my-stations .buttons div {
+  text-align: center;
+}
+#account-my-stations .buttons div a {
   display: inline;
 }
-#account-my-stations .button div a:first-child {
+#account-my-stations .buttons div a > i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+@media (max-width: 767px) {
+  #account-my-stations .buttons div a > i {
+    font-size: 18px;
+  }
+}
+#account-my-stations .buttons div a:first-child {
   margin-right: 25px;
 }
 @media (max-width: 767px) {
-  #account-my-stations .button div a:first-child {
+  #account-my-stations .buttons div a:first-child {
     margin-right: 0;
     margin-bottom: 20px;
   }
 }
 @media (max-width: 767px) {
-  #account-my-stations .button div a {
+  #account-my-stations .buttons div a {
     display: block;
   }
+}
+#account-my-stations .stations .item {
+  margin-bottom: 35px;
+}
+#account-my-stations .stations .item .header .name {
+  float: left;
+  color: #02BDD5;
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+#account-my-stations .stations .item .header .name:hover {
+  color: #0197AA;
+}
+@media (max-width: 767px) {
+  #account-my-stations .stations .item .header .name {
+    font-size: 18px;
+  }
+}
+#account-my-stations .stations .item .header .actions {
+  float: right;
+}
+#account-my-stations .stations .item .header .actions a {
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-right: 10px;
+  letter-spacing: 0.3px;
+}
+#account-my-stations .stations .item .header .actions .toggle {
+  color: #02BDD5;
+}
+#account-my-stations .stations .item .header .actions .toggle:hover {
+  color: #0197AA;
+}
+#account-my-stations .stations .item .header .actions .edit {
+  color: #5cb85c;
+}
+#account-my-stations .stations .item .header .actions .edit:hover {
+  color: #449d44;
+}
+#account-my-stations .stations .item .header .actions .delete {
+  color: #d9534f;
+}
+#account-my-stations .stations .item .header .actions .delete:hover {
+  color: #c9302c;
+}
+@media (max-width: 767px) {
+  #account-my-stations .stations .item .header .actions i {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  #account-my-stations .stations .item .header .actions span {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  #account-my-stations .stations {
+    text-align: left;
+  }
+}
+#account-my-stations .stations .item:last-child {
+  margin-bottom: 0;
 }
 #hero-area {
   background: url('../images/slider.jpg') no-repeat 50%;
