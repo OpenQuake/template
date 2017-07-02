@@ -186,7 +186,7 @@ a.btn-primary-reverse {
 	font-family: @open-sans;
 	font-size: 10px;
 	letter-spacing: 0.5px;
-
+	text-transform: uppercase;
 }
 
 .label-default {
@@ -1143,16 +1143,15 @@ a.btn-primary-reverse {
 		margin-bottom: 35px;
 
 		.header {
+			margin-top: 19px;
+
 			.name {
 				float: left;
-				color: @primary-color;
+				color: #444;
 				font-size: 15px;
 				font-weight: 600;
 				padding-bottom: 7px;
-
-				&:hover {
-					color: @primary-color-dark;
-				}
+				margin-bottom: 0;
 
 				@media (max-width: 767px) {
 					font-size: 18px
@@ -1205,13 +1204,6 @@ a.btn-primary-reverse {
 		}
 	}
 
-	.status span {
-		margin-left: 10px;
-
-		@media (max-width: 767px) {
-			margin-left: 0;
-		}
-	}
 }
 
 #account-readings {

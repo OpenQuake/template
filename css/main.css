@@ -161,6 +161,7 @@ a.btn-primary-reverse {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
   letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 .label-default {
   background-color: #999;
@@ -971,15 +972,16 @@ a.btn-primary-reverse {
 #account-my-stations-details .station {
   margin-bottom: 35px;
 }
+#account-my-stations-details .station .header {
+  margin-top: 19px;
+}
 #account-my-stations-details .station .header .name {
   float: left;
-  color: #02BDD5;
+  color: #444;
   font-size: 15px;
   font-weight: 600;
   padding-bottom: 7px;
-}
-#account-my-stations-details .station .header .name:hover {
-  color: #0197AA;
+  margin-bottom: 0;
 }
 @media (max-width: 767px) {
   #account-my-stations-details .station .header .name {
@@ -1020,14 +1022,6 @@ a.btn-primary-reverse {
 @media (max-width: 767px) {
   #account-my-stations-details .station .header .actions i {
     font-size: 18px;
-  }
-}
-#account-my-stations-details .status span {
-  margin-left: 10px;
-}
-@media (max-width: 767px) {
-  #account-my-stations-details .status span {
-    margin-left: 0;
   }
 }
 #account-readings .content h4 {
