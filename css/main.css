@@ -884,6 +884,11 @@ a.btn-primary-reverse {
     display: block;
   }
 }
+#account-my-stations .stations {
+  /*hr:last-child {
+			display: none;
+		}*/
+}
 #account-my-stations .stations .item {
   margin-bottom: 35px;
 }
@@ -946,8 +951,16 @@ a.btn-primary-reverse {
 #account-my-stations .stations .item:last-child {
   margin-bottom: 0;
 }
-#account-my-stations .stations hr:last-child {
-  display: none;
+#account-my-stations nav {
+  text-align: right;
+}
+#account-my-stations nav .pagination {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  #account-my-stations nav {
+    text-align: center;
+  }
 }
 #account-my-stations-details .station {
   margin-bottom: 35px;
