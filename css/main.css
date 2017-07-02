@@ -75,10 +75,26 @@ textarea.form-control {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
+.btn {
+  outline: none;
+  display: block;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.428571429;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  border-radius: 1px;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  border: 1px solid rgba(111, 121, 122, 0.3);
+}
 @media (max-width: 767px) {
   .btn {
     font-size: 18px !important;
   }
+}
+.btn:hover {
+  border: 1px solid rgba(111, 121, 122, 0.3);
 }
 a.btn {
   padding: 10px 12px !important;
@@ -90,17 +106,8 @@ a.btn {
 }
 .btn-primary {
   color: #fff;
-  outline: none;
   background: #02BDD5;
-  display: block;
-  height: 40px;
-  padding: 6px 12px;
-  font-size: 13px;
-  line-height: 1.428571429;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  border-radius: 1px;
   border: 1px solid rgba(111, 121, 122, 0.3);
-  text-transform: uppercase;
 }
 .btn-primary:hover {
   background: #0197AA;
@@ -108,18 +115,8 @@ a.btn {
 }
 .btn-primary-reverse {
   color: #02BDD5;
-  outline: none;
   background: #fff;
-  display: block;
-  height: 40px;
-  padding: 6px 12px;
-  font-size: 13px;
-  line-height: 1.428571429;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  border-radius: 1px;
   border: 1px solid #02BDD5;
-  text-transform: uppercase;
-  font-weight: 400 !important;
 }
 .btn-primary-reverse:hover {
   background: #02BDD5;
@@ -689,19 +686,21 @@ a.btn-primary-reverse {
     padding-left: 0 !important;
   }
 }
-.sidebar-page .page-content .content a {
-  margin: 0;
-  font-size: 13px;
-  font-weight: 600;
-  color: #02BDD5;
-}
-.sidebar-page .page-content .content a:hover {
-  color: #0197AA;
-}
-@media (max-width: 767px) {
-  .sidebar-page .page-content .content a {
-    text-align: center;
-  }
+.sidebar-page .page-content .content {
+  /*a {
+				margin: 0;
+				font-size: 13px;
+				font-weight: 600;
+				color: @primary-color;
+
+				&:hover {
+					color: @primary-color-dark;
+				}
+
+				@media (max-width: 767px) {
+					text-align: center;
+				}
+			}*/
 }
 .sidebar-page .page-content .content b {
   font-weight: 600;
@@ -842,6 +841,44 @@ a.btn-primary-reverse {
 @media (max-width: 767px) {
   #account-account-info .account .label {
     margin-left: 0;
+  }
+}
+#account-my-stations .button div {
+  text-align: center;
+  /*margin: 0 auto;
+			max-width: 300px;
+
+			button:first-child {
+				float: left;
+				margin-right: 25px;
+
+				@media (max-width: 767px) {
+					float: none;
+					margin-bottom: 25px;
+				}
+			}
+
+			button {
+				@media (max-width: 767px) {
+					width: 100%
+				}
+			}*/
+}
+#account-my-stations .button div a {
+  display: inline;
+}
+#account-my-stations .button div a:first-child {
+  margin-right: 25px;
+}
+@media (max-width: 767px) {
+  #account-my-stations .button div a:first-child {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  #account-my-stations .button div a {
+    display: block;
   }
 }
 #hero-area {

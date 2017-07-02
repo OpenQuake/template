@@ -86,8 +86,24 @@ textarea, textarea.form-control {
 }
 
 .btn {
+	outline: none;
+	display: block;
+	height: 40px;
+	padding: 6px 12px;
+	font-size: 13px;
+	line-height: 1.428571429;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	border-radius: 1px;
+	text-transform: uppercase;
+	font-weight: 400 !important;
+	border: 1px solid rgba(111, 121, 122, 0.3);
+
 	@media (max-width: 767px) {
 		font-size: 18px !important;
+	}
+
+	&:hover {
+		border: 1px solid rgba(111, 121, 122, 0.3);
 	}
 }
 
@@ -101,17 +117,8 @@ a.btn {
 
 .btn-primary {
 	color: #fff;
-	outline: none;
 	background: @primary-color;
-	display: block;
-	height: 40px;
-	padding: 6px 12px;
-	font-size: 13px;
-	line-height: 1.428571429;
-	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-	border-radius: 1px;
 	border: 1px solid rgba(111, 121, 122, 0.3);
-	text-transform: uppercase;
 
 	&:hover {
 		background: @primary-color-dark;
@@ -125,18 +132,8 @@ a.btn-primary {
 
 .btn-primary-reverse {
 	color: @primary-color;
-	outline: none;
 	background: #fff;
-	display: block;
-	height: 40px;
-	padding: 6px 12px;
-	font-size: 13px;
-	line-height: 1.428571429;
-	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-	border-radius: 1px;
 	border: 1px solid @primary-color;
-	text-transform: uppercase;
-	font-weight: 400 !important;
 
 	&:hover {
 		background: @primary-color;
@@ -796,7 +793,7 @@ a.btn-primary-reverse {
 		}
 
 		.content {
-			a {
+			/*a {
 				margin: 0;
 				font-size: 13px;
 				font-weight: 600;
@@ -809,7 +806,7 @@ a.btn-primary-reverse {
 				@media (max-width: 767px) {
 					text-align: center;
 				}
-			}
+			}*/
 
 			b {
 				font-weight: 600;
@@ -985,6 +982,54 @@ a.btn-primary-reverse {
 	}
 }
 
+#account-my-stations {
+
+	.button {
+
+		div {
+			text-align: center;
+
+			a {
+				display: inline;
+			}
+
+			a:first-child {
+				margin-right: 25px;
+
+				@media (max-width: 767px) {
+					margin-right: 0;
+					margin-bottom: 20px;
+				}
+			}
+
+			a {
+				@media (max-width: 767px) {
+					display: block;
+				}
+			}
+			/*margin: 0 auto;
+			max-width: 300px;
+
+			button:first-child {
+				float: left;
+				margin-right: 25px;
+
+				@media (max-width: 767px) {
+					float: none;
+					margin-bottom: 25px;
+				}
+			}
+
+			button {
+				@media (max-width: 767px) {
+					width: 100%
+				}
+			}*/
+
+		}
+	}
+
+}
 
 
 
