@@ -1079,6 +1079,20 @@ a.btn-primary-reverse {
     font-size: 13px;
   }
 }
+/*ERROR MESSAGE*/
+#error-message {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+#error-message .container {
+  padding: 20px;
+}
+#error-message .container .message {
+  padding: 10px 0;
+}
 #hero-area {
   background: url('../images/slider.jpg') no-repeat 50%;
   background-size: cover;

@@ -63,6 +63,12 @@
 		"oAP": "\/contact.html",
 		"oF": 0
 		},
+	"\/container.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/container.html",
+		"oF": 0
+		},
 	"\/containers\/container.html": {
 		"ft": 8192,
 		"oA": 2,
