@@ -969,13 +969,13 @@ a.btn-primary-reverse {
     text-align: center;
   }
 }
-#account-my-stations-details .station {
+#account-my-stations-station-settings .station {
   margin-bottom: 35px;
 }
-#account-my-stations-details .station .header {
+#account-my-stations-station-settings .station .header {
   margin-top: 19px;
 }
-#account-my-stations-details .station .header .name {
+#account-my-stations-station-settings .station .header .name {
   float: left;
   color: #444;
   font-size: 15px;
@@ -984,43 +984,43 @@ a.btn-primary-reverse {
   margin-bottom: 0;
 }
 @media (max-width: 767px) {
-  #account-my-stations-details .station .header .name {
+  #account-my-stations-station-settings .station .header .name {
     font-size: 18px;
   }
 }
-#account-my-stations-details .station .header .actions {
+#account-my-stations-station-settings .station .header .actions {
   float: right;
 }
-#account-my-stations-details .station .header .actions a {
+#account-my-stations-station-settings .station .header .actions a {
   font-size: 13px;
   font-weight: 300;
   text-transform: uppercase;
   margin-right: 10px;
   letter-spacing: 0.3px;
 }
-#account-my-stations-details .station .header .actions .toggle {
+#account-my-stations-station-settings .station .header .actions .toggle {
   color: #02BDD5;
 }
-#account-my-stations-details .station .header .actions .toggle:hover {
+#account-my-stations-station-settings .station .header .actions .toggle:hover {
   color: #0197AA;
 }
-#account-my-stations-details .station .header .actions .edit {
+#account-my-stations-station-settings .station .header .actions .edit {
   color: #5cb85c;
 }
-#account-my-stations-details .station .header .actions .edit:hover {
+#account-my-stations-station-settings .station .header .actions .edit:hover {
   color: #449d44;
 }
-#account-my-stations-details .station .header .actions .delete {
+#account-my-stations-station-settings .station .header .actions .delete {
   color: #d9534f;
 }
-#account-my-stations-details .station .header .actions .delete:hover {
+#account-my-stations-station-settings .station .header .actions .delete:hover {
   color: #c9302c;
 }
-#account-my-stations-details .station .header .actions i {
+#account-my-stations-station-settings .station .header .actions i {
   font-size: 15px;
 }
 @media (max-width: 767px) {
-  #account-my-stations-details .station .header .actions i {
+  #account-my-stations-station-settings .station .header .actions i {
     font-size: 18px;
   }
 }
