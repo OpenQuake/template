@@ -836,6 +836,14 @@ a.btn-primary-reverse {
 #account-account-info .account p {
   margin: 0;
 }
+#account-account-info .account .label {
+  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  #account-account-info .account .label {
+    margin-left: 0;
+  }
+}
 #hero-area {
   background: url('../images/slider.jpg') no-repeat 50%;
   background-size: cover;
