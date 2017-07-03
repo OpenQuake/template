@@ -213,12 +213,6 @@
 		"oAP": "\/faq.html",
 		"oF": 0
 		},
-	"\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/favicon.ico",
-		"oF": 0
-		},
 	"\/fonts\/ionicons.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -269,12 +263,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/forgot-password-4.html",
-		"oF": 0
-		},
-	"\/free-license.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/free-license.pdf",
 		"oF": 0
 		},
 	"\/homepage.html": {
@@ -838,6 +826,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/old-pages\/contact.html",
+		"oF": 0
+		},
+	"\/old-pages\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old-pages\/favicon.ico",
+		"oF": 0
+		},
+	"\/old-pages\/free-license.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old-pages\/free-license.pdf",
 		"oF": 0
 		},
 	"\/old-pages\/gallery.html": {
