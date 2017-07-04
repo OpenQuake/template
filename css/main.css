@@ -153,6 +153,14 @@ a.btn-primary-reverse {
 .btn-home:hover {
   color: #fff;
 }
+a.btn-home {
+  padding: 13px 12px !important;
+}
+@media (max-width: 767px) {
+  a.btn-home {
+    padding: 11px 12px !important;
+  }
+}
 /*Ridefinizione label*/
 .label {
   font-weight: 600;
@@ -514,6 +522,14 @@ a.btn-primary-reverse {
 }
 #call-to-action .block .btn-contact i {
   margin-right: 10px;
+}
+#call-to-action .block a.btn-contact {
+  padding: 12px 12px !important;
+}
+@media (max-width: 767px) {
+  #call-to-action .block a.btn-contact {
+    padding: 7px 12px !important;
+  }
 }
 #contact-section {
   padding: 95px 0 0px;
