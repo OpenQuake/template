@@ -39,10 +39,10 @@
 		"oAP": "\/account-account-info.html",
 		"oF": 0
 		},
-	"\/account-my-stations-details.html": {
+	"\/account-my-stations-station-settings.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/account-my-stations-details.html",
+		"oAP": "\/account-my-stations-station-settings.html",
 		"oF": 0
 		},
 	"\/account-my-stations.html": {
@@ -63,10 +63,10 @@
 		"oAP": "\/contact.html",
 		"oF": 0
 		},
-	"\/container.html": {
+	"\/container-with-error-message.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/container.html",
+		"oAP": "\/container-with-error-message.html",
 		"oF": 0
 		},
 	"\/containers\/container.html": {
