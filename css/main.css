@@ -920,7 +920,8 @@ a.btn-home {
   color: #02BDD5;
   font-size: 15px;
   font-weight: 600;
-  padding-bottom: 7px;
+  padding-bottom: 2px;
+  text-align: left;
 }
 #account-my-stations .stations .item .header .name:hover {
   color: #0197AA;
@@ -929,6 +930,11 @@ a.btn-home {
   #account-my-stations .stations .item .header .name {
     font-size: 18px;
   }
+}
+#account-my-stations .stations .item .header .description {
+  font-weight: 400;
+  margin: 0px 0 7px;
+  text-align: left;
 }
 #account-my-stations .stations .item .header .actions {
   float: right;
@@ -996,13 +1002,19 @@ a.btn-home {
   color: #444;
   font-size: 15px;
   font-weight: 600;
-  padding-bottom: 7px;
+  padding-bottom: 2px;
   margin-bottom: 0;
+  text-align: left;
 }
 @media (max-width: 767px) {
   #account-my-stations-station-settings .station .header .name {
     font-size: 18px;
   }
+}
+#account-my-stations-station-settings .station .header .description {
+  font-weight: 400;
+  margin: 0px 0 7px;
+  text-align: left;
 }
 #account-my-stations-station-settings .station .header .actions {
   float: right;
