@@ -39,6 +39,18 @@
 		"oAP": "\/account-account-info.html",
 		"oF": 0
 		},
+	"\/account-my-stations-edit-station.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/account-my-stations-edit-station.html",
+		"oF": 0
+		},
+	"\/account-my-stations-new-station.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/account-my-stations-new-station.html",
+		"oF": 0
+		},
 	"\/account-my-stations-station-settings.html": {
 		"ft": 8192,
 		"oA": 2,

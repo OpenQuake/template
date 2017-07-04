@@ -787,33 +787,33 @@ a.btn-primary-reverse {
     font-size: 16px;
   }
 }
-#account-delete .message {
+#account-account-info-delete .message {
   height: 100px;
   width: 600px;
 }
 @media (max-width: 767px) {
-  #account-delete .message {
+  #account-account-info-delete .message {
     width: 100%;
   }
 }
-#account-delete .buttons {
+#account-account-info-delete .buttons {
   margin-top: 20px;
 }
-#account-delete .buttons a {
+#account-account-info-delete .buttons a {
   float: left;
 }
 @media (max-width: 767px) {
-  #account-delete .buttons a {
+  #account-account-info-delete .buttons a {
     float: none;
     width: 100%;
   }
 }
-#account-delete .buttons input {
+#account-account-info-delete .buttons input {
   float: left;
   margin-left: 15px;
 }
 @media (max-width: 767px) {
-  #account-delete .buttons input {
+  #account-account-info-delete .buttons input {
     float: none;
     width: 100%;
     margin-top: 15px;
@@ -1022,6 +1022,38 @@ a.btn-primary-reverse {
 @media (max-width: 767px) {
   #account-my-stations-station-settings .station .header .actions i {
     font-size: 18px;
+  }
+}
+#account-my-stations-new-station .form-description {
+  font-weight: 600;
+  margin-top: 8px;
+}
+@media (max-width: 767px) {
+  #account-my-stations-new-station .form-description {
+    margin-top: 0;
+  }
+}
+#account-my-stations-new-station .buttons {
+  padding-top: 40px;
+}
+#account-my-stations-new-station .buttons div {
+  text-align: center;
+}
+#account-my-stations-new-station .buttons div a {
+  display: inline;
+}
+#account-my-stations-new-station .buttons div a:first-child {
+  margin-right: 15px;
+}
+@media (max-width: 767px) {
+  #account-my-stations-new-station .buttons div a:first-child {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  #account-my-stations-new-station .buttons div a {
+    display: block;
   }
 }
 #account-readings .content h4 {
