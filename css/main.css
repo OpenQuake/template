@@ -1056,6 +1056,38 @@ a.btn-primary-reverse {
     display: block;
   }
 }
+#account-my-stations-edit-station .form-description {
+  font-weight: 600;
+  margin-top: 8px;
+}
+@media (max-width: 767px) {
+  #account-my-stations-edit-station .form-description {
+    margin-top: 0;
+  }
+}
+#account-my-stations-edit-station .buttons {
+  padding-top: 40px;
+}
+#account-my-stations-edit-station .buttons div {
+  text-align: center;
+}
+#account-my-stations-edit-station .buttons div a {
+  display: inline;
+}
+#account-my-stations-edit-station .buttons div a:first-child {
+  margin-right: 15px;
+}
+@media (max-width: 767px) {
+  #account-my-stations-edit-station .buttons div a:first-child {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  #account-my-stations-edit-station .buttons div a {
+    display: block;
+  }
+}
 #account-readings .content h4 {
   margin-bottom: 17px;
 }
