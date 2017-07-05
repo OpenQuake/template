@@ -161,6 +161,42 @@ a.btn-home {
     padding: 11px 12px !important;
   }
 }
+.modal .modal-body li {
+  font-size: 14px;
+  font-weight: 300;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 10px;
+}
+@media (max-width: 767px) {
+  .modal .modal-body li {
+    text-align: left;
+    margin-left: 0;
+    font-size: 14px;
+  }
+}
+.modal .modal-body .link {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #02BDD5;
+}
+.modal .modal-body .link:hover {
+  color: #0197AA;
+}
+.modal .modal-footer {
+  text-align: left;
+}
+.modal .modal-footer .btn {
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  .modal .modal-footer .btn {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
 /*Ridefinizione label*/
 .label {
   font-weight: 600;
@@ -1183,6 +1219,21 @@ a.btn-home {
   padding: 20px;
 }
 #error-message .container .message {
+  padding: 10px 0;
+  padding-left: 15px;
+}
+/*SUCCESS MESSAGE*/
+#success-message {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+#success-message .container {
+  padding: 20px;
+}
+#success-message .container .message {
   padding: 10px 0;
   padding-left: 15px;
 }

@@ -185,6 +185,54 @@ a.btn-home {
 	}
 }
 
+.modal {
+
+	.modal-body {
+
+
+		li {
+			font-size: 14px;
+			font-weight: 300;
+
+			list-style-type: disc;
+			list-style-position: inside;
+			margin-left: 10px;
+
+			@media (max-width: 767px) {
+				text-align: left;
+				margin-left: 0;
+				font-size: 14px;
+			}
+		}
+
+		.link {
+			margin: 0;
+			font-size: 16px;
+			font-weight: 600;
+			color: @primary-color;
+
+			&:hover {
+				color: @primary-color-dark;
+			}
+		}
+	}
+
+	.modal-footer {
+
+		text-align: left;
+
+		.btn {
+			display: inline-block;
+
+			@media (max-width: 767px) {
+				width: 100%;
+				margin-top: 15px;
+				margin-left: 0;
+			}
+		}
+	}
+}
+
 
 /*Ridefinizione label*/
 .label {
@@ -1391,6 +1439,24 @@ a.btn-home {
 
 /*ERROR MESSAGE*/
 #error-message {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+
+    .container {
+    	padding: 20px;
+
+    	.message {
+    		padding:10px 0;
+    		padding-left: 15px;
+    	}
+    }
+}
+
+/*SUCCESS MESSAGE*/
+#success-message {
 	position: fixed;
     left: 0;
     bottom: 0;

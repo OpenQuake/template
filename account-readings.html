@@ -194,28 +194,28 @@
                                                     <td><a href="#" class="link">Name <span class="label label-danger">Deleted</span></a></td>
                                                     <td>12/06/2017 15:31:27</td>
                                                     <td>...</td>
-                                                    <th><a href="#" class="delete"><i class="fa fa-times" aria-hidden="true"></i> <span class="hidden-xs">Delete</span></a></th>
+                                                    <th><a href="#" class="delete" data-toggle="modal" data-target="#modal-delete-reading"><i class="fa fa-times" aria-hidden="true"></i> <span class="hidden-xs">Delete</span></a></th>
                                                 </tr>
                                                 <tr class="danger">
                                                     <td>2</td>
                                                     <td><a href="#" class="link">Name <span class="label label-danger">Deleted</span></a></td>
                                                     <td>12/06/2017 15:31:27</td>
                                                     <td>...</td>
-                                                    <th><a href="#" class="delete"><i class="fa fa-times" aria-hidden="true"></i> <span class="hidden-xs">Delete</span></a></th>
+                                                    <th><a href="#" class="delete" data-toggle="modal" data-target="#modal-delete-reading"><i class="fa fa-times" aria-hidden="true"></i> <span class="hidden-xs">Delete</span></a></th>
                                                 </tr>
                                                 <tr>
                                                     <td>3</td>
                                                     <td><a href="#" class="link">Name</a></td>
                                                     <td>12/06/2017 15:31:27</td>
                                                     <td>...</td>
-                                                    <th><a href="#" class="delete"><i class="fa fa-times" aria-hidden="true"></i> <span class="hidden-xs">Delete</span></a></th>
+                                                    <th><a href="#" class="delete" data-toggle="modal" data-target="#modal-delete-reading"><i class="fa fa-times" aria-hidden="true"></i> <span class="hidden-xs">Delete</span></a></th>
                                                 </tr>
                                                 <tr>
                                                     <td>4</td>
                                                     <td><a href="#" class="link">Name</a></td>
                                                     <td>12/06/2017 15:31:27</td>
                                                     <td>...</td>
-                                                    <th><a href="#" class="delete"><i class="fa fa-times" aria-hidden="true"></i> <span class="hidden-xs">Delete</span></a></th>
+                                                    <th><a href="#" class="delete" data-toggle="modal" data-target="#modal-delete-reading"><i class="fa fa-times" aria-hidden="true"></i> <span class="hidden-xs">Delete</span></a></th>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -308,6 +308,35 @@
                 </div>
             </div>
         </section>
+
+        <!-- Modal -->
+        <div id="modal-delete-reading" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <form>
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Delete Reading</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>We don't like our database to be emptied!<br>If you think this reading needs to be deleted please tell us why. 
+                            Beaware of the fact that we can refuse to do it as described into the <a class="link" href="#">Terms of service</a></p>
+                            <div class="form-group">
+                                <textarea type="text" placeholder="If you don't remove this reading the world will end. I'm warning you!" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn btn-primary-reverse">CANCEL</a>
+                            <a href="#" class="btn btn-danger">SUBMIT</a>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
 
         <!--
         ==================================================
