@@ -310,6 +310,17 @@ a.btn-home {
 #top-bar .main-menu li a:hover {
   color: #02BDD5;
 }
+#top-bar .main-menu li.logged a {
+  text-transform: none;
+}
+#top-bar .main-menu li.logged a.username {
+  text-transform: none;
+  color: #02BDD5;
+  font-weight: 600;
+}
+#top-bar .main-menu li.logged a.username:hover {
+  color: #0197AA;
+}
 .navbar-custom .nav li > a {
   position: relative;
   color: #000;
@@ -339,8 +350,17 @@ a.btn-home {
   margin-bottom: 0;
   margin-top: -5px;
   background: #fff;
-  background-color: rgba(0, 0, 0, 0.95);
-  box-shadow: 0 2px 0.09px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 15px rgba(102, 102, 102, 0.35);
+  border-radius: 5px;
+}
+@media (max-width: 767px) {
+  .dropdown-menu > ul {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
 }
 .nav .open > a,
 .nav .open > a:focus {
@@ -353,8 +373,11 @@ a.btn-home {
   line-height: normal;
   text-decoration: none;
   padding: 8px 0;
-  color: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+#top-bar .dropdown-menu > ul > hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .shadow {
   border: 1px solid #ddd;
@@ -1199,11 +1222,11 @@ a.btn-home {
     text-align: center;
   }
 }
-#account-readings .section p {
+#account-readings .section p.lengends {
   margin-top: 20px;
 }
 @media (max-width: 767px) {
-  #account-readings .section p {
+  #account-readings .section p.lengends {
     font-size: 13px;
   }
 }
