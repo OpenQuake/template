@@ -277,12 +277,6 @@
 		"oAP": "\/forgot-password-4.html",
 		"oF": 0
 		},
-	"\/homepage.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/homepage.html",
-		"oF": 0
-		},
 	"\/how-to-contribute.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -688,6 +682,12 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
+		"oF": 0
 		},
 	"\/js\/bootstrap.min.js": {
 		"ft": 64,
