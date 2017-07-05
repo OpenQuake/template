@@ -746,6 +746,8 @@ a.btn-home {
   font-weight: 300;
   color: #555;
   padding-left: 10px;
+  width: 100%;
+  display: block;
 }
 .sidebar-page .sidebar .sidebar-menu ul li:hover {
   background: #02BDD5;
@@ -883,12 +885,14 @@ a.btn-home {
     width: 100%;
   }
 }
-#account-account-info-delete .buttons input {
+#account-account-info-delete .buttons input:last-child,
+#account-account-info-delete .buttons a:last-child {
   float: left;
   margin-left: 15px;
 }
 @media (max-width: 767px) {
-  #account-account-info-delete .buttons input {
+  #account-account-info-delete .buttons input:last-child,
+  #account-account-info-delete .buttons a:last-child {
     float: none;
     width: 100%;
     margin-top: 15px;
