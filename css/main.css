@@ -197,6 +197,16 @@ a.btn-home {
     margin-left: 0;
   }
 }
+.modal .modal-footer a:last-child,
+.modal .modal-footer input:last-child {
+  margin-left: 15px;
+}
+@media (max-width: 767px) {
+  .modal .modal-footer a:last-child,
+  .modal .modal-footer input:last-child {
+    margin-left: 0;
+  }
+}
 /*Ridefinizione label*/
 .label {
   font-weight: 600;
