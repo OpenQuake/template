@@ -9,8 +9,6 @@
 @paragraph-color:#727272;
 
 
-
-
 body {
     font-family: @open-sans;
 }
@@ -333,6 +331,13 @@ a.btn-home {
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle {
 	background: #444;
 }
+
+/* focus fix */
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
 
 #top-bar {
 	background: #fff;
